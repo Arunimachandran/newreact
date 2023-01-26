@@ -1,0 +1,48 @@
+
+/* .pic{
+    color: white;
+} */
+.plus{
+    color: yellow;
+}
+.searchh{
+    width: 500px;
+    border-radius: 0;
+}
+.log{
+    color: rgb(51, 173, 243);
+    margin-left: 50px;
+    border-radius: 0;
+    width: 140px;
+}
+.sel{
+    color: white;
+}
+.cart{
+    color: white;
+}
+.more{
+    color: white;
+}
+/* .imagee{
+    display: flex;
+    padding-left: 100px;
+    margin-left: 30px;
+} */
+.secondbar{
+    display: flex;
+    
+}
+.g-link{
+    padding-left: 30px;
+    
+}
+.g-link a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#navbarScrollingDropdown{
+    color: white;
+    }
+
