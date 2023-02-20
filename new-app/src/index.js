@@ -16,6 +16,8 @@ import Product from './Product';
 import Flip from './Flip';
 import Userprovider from './Context/Userprovider';
 import A from './A';
+import Textcolorchange from './Textcolorchange';
+import B from './B';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,7 +37,8 @@ root.render(
 <Icon/>
 <Naav/>
 <Product/>
-
+<Textcolorchange/>
+<B/>
   </React.StrictMode>
   </Userprovider>
 );

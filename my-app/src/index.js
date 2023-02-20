@@ -17,21 +17,44 @@ import Spread from './Spread';
 import Dummyjs from './Dummyjs';
 import { Alert } from 'react-bootstrap';
 import Useeffect from './Useeffect';
+import Tablemap from './Tablemap';
+import Obj from './Obj';
+import Spreadnew from './Spreadnew';
+import Ternarynew from './Ternarynew';
+import Spreadnwe1 from './Spreadnwe1';
+import Useeffectnew from './Useeffectnew';
+import Propsnew from './Propsnew';
+import Spreadtask from './Spreadtask';
+import Concattask from './Concattask';
+import Newapi from './Newapi';
+import Newapicarousel from './Newapicarousel';
+import Newcontext from './Newcontext';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     
+     <Newcontext>
     <App />
+    </Newcontext>
     <Add/>
-    
-   
    <Ternary/><Ternary1/>
    <Spread/>
    <Dummyjs/>
    <Useeffect/>
-   
 <Increments/>
+<Tablemap/>
+<Obj/>
+<Spreadnew/>
+<Ternarynew/>
+<Spreadnwe1/>
+<Useeffectnew/>
+<Propsnew/>
+<Spreadtask/>
+<Concattask/>
+<Newapi/>
+<Newapicarousel/>
   </React.StrictMode>
 );
 

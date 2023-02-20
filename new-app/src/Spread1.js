@@ -12,7 +12,7 @@ function Spread1() {
   return (
     
     <div>
-      {hi}
+      <h1>{hi}</h1>
       <h1>the emp id is {emp.id} and name is {emp.name} {emp.address}</h1>
        <button onClick={idchange}>change</button>
     </div>

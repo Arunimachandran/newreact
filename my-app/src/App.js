@@ -6,6 +6,7 @@ import Objects from './Objects';
 import State from './State';
 import Cards from './Cards';
 import Array from './Array';
+import Home from './Home';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Array" element={<Array/>}/>
     </Routes>
     </BrowserRouter>
+    <Home/>
     </div>
   );
 }

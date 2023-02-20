@@ -5,12 +5,12 @@ import State from './State'
 function Ternary1() {
     const [Hide, setHide] = useState(false)
     const click=()=>{
-        setHide((abc)=>!abc)
+        setHide(!Hide)
     }
   return (
     <div>
         {Hide?<State/>:""}
-        <button onClick={click}>{Hide===true?"Hide":"show"}
+        <button onClick={click}>{Hide ?"Hide":"show"}
         </button>
     </div>
   )

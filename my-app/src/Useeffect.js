@@ -10,7 +10,6 @@ function Useeffect() {
     }, [name])
     
     
-    
   return (
     <div>
         

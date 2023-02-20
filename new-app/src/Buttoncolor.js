@@ -5,7 +5,9 @@ function Buttoncolor() {
   const{first}=Userstate()
   const{a}=Userstate()
     const [color, setcolor] = useState("black")
-  return (
+   
+    
+    return (
     
     <div>
       <h1>{a}</h1>
